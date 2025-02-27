@@ -1,0 +1,7 @@
+#Inputkan data diri anda
+nama=str(input("Masukkan nama:"))
+umur=int(input("Msukkan umur:"))
+beratBadan=float(input("Masukkan berat badan:"))
+
+#Tampilkan data diri anda
+print("Selamat datang,",nama, "Anda berusia",umur, "tahun dan berat badan anda", beratBadan)
