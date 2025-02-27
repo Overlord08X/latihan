@@ -1,0 +1,13 @@
+#Memasukkan 3 digit angka dan menampilkan angka ratusan, puluhan, dan satuan
+#Input: 3 digit angka
+n=int(input("Mausukkan 3 digit angka:"))
+
+#Proses memisahkan angka ratusan, puluhan, dan satuan
+ratusan=(n//100)
+puluhan=((n%100)//10)
+satuan=(n%10)
+
+#Menampilkan angka ratusan, puluhan, dan satuan
+print(f"Ratusan:{ratusan}")
+print(f"Puluhan:{puluhan}")
+print(f"Satuan:{satuan}")
